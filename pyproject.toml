@@ -1,0 +1,12 @@
+[project]
+name = "templar"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "copier>=9.6.0",
+    "typer>=0.15.2",
+]
+[project.scripts]
+templar = "main:app"
